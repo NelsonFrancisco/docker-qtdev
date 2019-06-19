@@ -1,0 +1,6 @@
+version: '3'
+services:
+  qt4-dev:
+    build: .
+    ports:
+      - "2222:22"
